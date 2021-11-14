@@ -23,10 +23,10 @@
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab officia porro autem. !</p>
       <!--Esta parte é o javascript-->
       <script>
-         var n1 = Number (window.prompt('Digite um número: '))
-         var n2 = Number (window.prompt('Digite outro número: '))
+         var n1 = Number.parseFloat(window.prompt('Digite um número: '))
+         var n2 = Number.parseFloat(window.prompt('Digite outro número: '))
          var soma = n1+n2
-         alert(`O resultado da soma entre ${n1} e ${n2} é igual a ${soma} `)
+         window.alert(`O resultado da soma entre ${n1} e ${n2} é igual a ${soma} `)
 
          //uso do 'Number.parseInt(n)' e 'Number.parseFloat(n)'
          //Number.parseInt(n) - para especificar números inteiros.
