@@ -1,0 +1,46 @@
+  <!DOCTYPE html>
+  <html lang="pt-br">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Meu primeiro programa...</title>
+
+      <!--Comentário: esta parte é sobre o css-->
+      <style>
+          body {
+              background-color: #2c2c7e;
+              color: cornsilk;
+              font: 19pt verdana;
+          }
+          h1{
+              color: #03c2b2;
+          }
+
+      </style>
+  </head>
+  <body>
+      <h1>Hello, World</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab officia porro autem. !</p>
+      <!--Esta parte é o javascript-->
+      <script>
+         var n1 = Number (window.prompt('Digite um número: '))
+         var n2 = Number (window.prompt('Digite outro número: '))
+         var soma = n1+n2
+         alert(`O resultado da soma entre ${n1} e ${n2} é igual a ${soma} `)
+
+         //uso do 'Number.parseInt(n)' e 'Number.parseFloat(n)'
+         //Number.parseInt(n) - para especificar números inteiros.
+         //Number.parseFlot(n) - para especificar números decimais (flutuantes)
+         // uso mais simples e genérico : usar somente 'Number(n)'
+
+         /*Formatando strings: 
+         var s = javascript
+         'eu estou apredendo s'  => nao faz interpolação.
+         'eu estou apredendo'+ s => usa concatenação.
+         `eu estou apredendo ${s}` => usa template string (entre crases) */
+         
+        
+         
+      </script>
+  </body>
+  </html>

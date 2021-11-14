@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passo com o Dom
+
+    </title>
+</head> 
+<style>
+    body {
+        background-color: rgb(64, 132, 163);
+        color: white;
+        font: normal 19pt;
+    } 
+
+    
+</style>
+<body>
+    <h2>Iniciando estudos com DOM</h2>
+    <p>Apredendo a usar o <strong>Dom</strong> em javascript.</p>
+    <p>Aqui vai o resultaddo</p>
+    <p>DOM siginica: Document Object Model</p>
+    <div id='msg'>clique aqui</div>
+    <script>
+        corpo = document.body
+        var p1 = window.document.getElementsByTagName('p')[0]
+        p1.style.color = 'black';
+        corpo.style.background = 'gray';
+        alert(p1.innerText)        
+
+
+        
+
+        
+        
+        //var corpo = window.document.body
+        //var p1 = window.document.getElementsByTagName('p')[0]
+      //  window.document.write(window.document)
+        
+        /*var d = window.document.getElementById('msg')
+        d.style.background = 'green'
+        window.document.getElementById('msg')
+        */
+      // var d = window.document.querySelector('div#msg')
+       //d.style.background = 'blue'
+    </script>
+    
+</body>
+</html>
