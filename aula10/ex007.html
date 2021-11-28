@@ -6,26 +6,41 @@
     <title>Somando numeros</title>
 </head>
 <body>
-    <h1>Somando valores</h1>
-    <input type="number" name="txtn1" id="txtn1"> +
-    <input type="number" name="txtn2" id="txtn2">
-    <input type="button" value="Somar" () onclick="somar()">
-    <input type="number" value='resultaddo' id = s>  
+    <h1>Somando valores</h1> 
+    <div id='container'>
+        
+        <input type="number" name="txtn1" id="txtn1"> +
+        <input type="number" name="txtn2" id="txtn2">
+        <input type="button" value="Somar" () onclick="somar()">
+        <input type="number" value='resultaddo' id = s>
+    </div> 
  
     
-    <div id="res"><strong> Resultado</strong></div>
+    <div id="res"><strong> Resultado </strong></div>
+
+    <h1> Diminuido valores</h1>
+
     <style>
         body{
             font: normal 18pt arial;
         }
+        h1{
+            text-align: center;
+        }
         input{
             font: normal 18pt arial;
             width: 88px;
+        
         } 
+        
         div#res {
-            margin-top: 50px ;
+            margin-top:50px ;
             color: blue;
+            text-align: center;
 
+        }
+        div#container{
+            text-align: center;
         }
         
 
