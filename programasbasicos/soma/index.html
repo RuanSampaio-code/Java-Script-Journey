@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            
+   
+         
+
+        }
+        input{
+            width: 50px;
+            margin: 1px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <input id="n1" type="number"> +
+        <input id="n2" type="number">
+        <button onclick="soma()"> somar</button><br>
+        
+</div>
+        <div id="res">   O resultado é </div>
+    
+</body>
+<script>
+   
+
+function soma(){
+    let numero1 = document.getElementById("n1").value;
+    let numero2 = document.getElementById("n2").value;
+    let res = document.getElementById("res");
+    somatorio = parseInt(numero1) + parseInt(numero2)
+    res.innerHTML = " O resultado é " + somatorio
+
+}
+
+</script>
+
+</html>
